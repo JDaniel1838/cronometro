@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+html{
+    font-family: 'Yantramanav', sans-serif;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.cronometro{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to right, hsla(0, 0%, 26%, 0.774) 0%, rgba(0, 0, 0, 0.822) 100%), url(tiempo.jpg);
+    background-size: cover;
+    background-position: center;
+    padding-top:0 ;
+}
+
+h2{
+    font-size: 6rem;
+    color: rgb(240, 240, 240);
+    padding-top:  1.2rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+}
+
+
+.Numeros{
+    font-size: 12rem;
+    color: #ffffff;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1rem;
+    user-select: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Numeros >span{
+    font-size: 12rem;
+    color: #ffffff;
+}
+
+.Numeros >span>p{
+    font-size: 2.8rem;
+    color: #ffffff;
+    letter-spacing: normal;
+}
+
+
+.ConteoDias{
+    font-size: 1.5rem;
+    color: rgb(235, 235, 235);
+    text-align: center;
+}
+
+.ConteoDias> span{
+    font-size: 1.5rem;
+    color: rgb(235, 235, 235);
+    text-align: center;
+    height: 10rem; 
+    width: 100%;
+}
+
+.botones{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+
+
+}
+
+button{
+    font-size: 1.5rem;
+    color:rgb(39, 39, 39);
+    background-color: #ffffff;
+    margin:0 2rem ;
+    padding: 0.7rem 1.7rem;
+    border-radius: 20px;
+    outline: none;
+    
+    font-weight: 400;
+    transition: .5s ease;
+}
+
+
+button:hover{
+    color: #ffffff;
+    background-image: linear-gradient(to right, hsl(0, 0%, 26%) 0%, rgb(0, 0, 0) 100%);
+}
+
+
+
+@media screen and (max-width: 1350px){
+    *{
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 1050px){
+    *{
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 850px){
+    *{
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 720px){
+    *{
+        font-size: 8px;
+    }
+}
+
+@media screen and (max-width: 550px){
+    *{
+        font-size: 6px;
+    }
+}
+
+@media screen and (max-width: 500px){
+    *{
+        font-size: 4px;
+    }
+}

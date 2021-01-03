@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cronometro</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Yantramanav:wght@300;400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+</head>
+<body>
+    
+    <div class="cronometro">
+        <h2 class="animate__animated animate__backInLeft ">LLEVAS: </h2>
+        <div class="Numeros animate__animated animate__fadeIn animate__delay-1s">
+
+            <span class="dias">00 <p>Dias</p></span>:<span class="horas">00<p>Horas</p></span>:<span class="minutos">00<p>Minutos</p></span>:<span class="segundos">00 <p>Segundos</p></span>
+        </div>
+        <div class="botones animate__animated animate__bounceInRight animate__delay-2s">
+            <button type="submit" class="iniciar animate__animated animate__swing animate__delay-4s" id="btnPlay">INICIAR</button>
+            <button type="submit" class="detener">DETENER</button>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
+
